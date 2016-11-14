@@ -1,0 +1,65 @@
+<!------------------------------------------------------------------------------------*/
+/* Document   : bibleReading.html                                                     */
+/* Created on : August 18, 2016                                                       */
+/* Author     : Brandon E. Hofmann                                                    */
+/*                                                                                    */
+/* Purpose:  Display Daily Bible Reading                                              */
+/*------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Daily Bible Reading</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Brother Keith Moore desires for the body to learn to be led by the Spirit and grow in exceeding faith and abounding love. That is the vision of Faith Life Church.">
+      <meta name="keywords" content="FLC, Faith Life Church, Faith Life Church Branson, Faith Life Church Sarasota, Moore Life, Moore Life Ministries, Keith Moore Ministries, More Life Now, More Life, Keith Moore, Brother Moore, Phyllis Moore, Dave Vaughan">
+
+      <link rel="stylesheet" href="../css/flclive_core.css" />
+      <link rel="stylesheet" href="../css/flclive_dr3.css" />
+      <link rel="stylesheet" href="../css/flcb.css" />
+
+      <style type="text/css">
+         h2
+         {
+            text-align: center;
+         }
+
+         a, a:hover, a:active, a:visited
+         {
+            text-decoration: none;
+         }
+
+         table.verses td
+         {
+            padding: 5px;
+            text-align: left;
+         }
+
+         table.verses .verseNumber
+         {
+            text-align: right;
+         }
+      </style>
+
+      <script type="text/javascript" src="../js/cjax.js"></script>
+      <script type="text/javascript" src="../js/sjax.js"></script>
+      <script type="text/javascript" src="../js/mobile.js"></script>
+   </head>
+
+   <body onLoad="getBibleReading()" class="biblereading" role="document">
+      <section role="main" id="content">
+         <h2 class="heading page"><span class="stylehook">Today's </span>Bible <span class="stylehook">Reading</span></h2>
+         <div class="back link" onclick="window.open( '../index.html', '_self' )">back</div>
+
+         <div class="contentouter" style="margin-top: 10px;">
+            <p>Come join us in reading the Bible this year. We read one chapter of the Bible each weekday (Monday through Friday).</p>
+
+            <section id="currentChapter"></section>
+            <section id="todayschapter"></section>
+            <section id="schedule"></section>
+         </div>
+      </section>
+   </body>
+</html>

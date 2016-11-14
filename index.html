@@ -1,0 +1,79 @@
+<!------------------------------------------------------------------------------------*/
+/* Document   : index.html                                                            */
+/* Created on : August 18, 2016                                                       */
+/* Author     : Brandon E. Hofmann                                                    */
+/*                                                                                    */
+/* Purpose:  Initialize Mobile Application                                            */
+/*------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>FLC Live</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="css/flclive_core.css" />
+      <link rel="stylesheet" href="css/flclive_dr3.css" />
+
+      <script type="text/javascript" src="js/cjax.js"></script>
+      <script type="text/javascript" src="js/sjax.js"></script>
+      <script type="text/javascript" src="js/mobile.js"></script>
+      <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="phonegap.js"></script>
+   </head>
+
+   <body onLoad="getMobileConfig()" class="home" role="document">
+      <div class="wrapper first">
+         <header id="siteheader" role="banner">
+            <h1 class="heading site link" onclick="window.open( 'index.html', '_self' )">
+               <abbr title="Faith Life Church">FLC</abbr>
+               <span class="stylehook"> Live</span>
+               <span class="extrainfo">
+                  <abbr title="Application"> App</abbr>
+               </span>
+            </h1>
+         </header>
+
+         <section id="rebroadcasts">
+            <h2 class="heading section">Full Service Rebroadcasts</h2>
+            <ul class="blocks">
+               <li class="block first link" onclick="logBroadcastRequest( 'Friday' )">Friday <span class="stylehook">Rebroadcast</span></li>
+               <li class="block second link" onclick="logBroadcastRequest( 'Sunday' )">Sunday <span class="stylehook">Rebroadcast</span></li>
+            </ul>
+         </section>
+      </div>
+
+      <div class="wrapper second">
+         <section id="featuredmessages" class="link" onclick="window.open( 'html/featuredMessages.html', '_self' )">
+            <h2 class="heading section">Featured Messages</h2>
+         </section>
+
+         <section id="biblereading" class="link" onclick="window.open( 'html/bibleReading.html', '_self' )">
+            <h2 class="heading section">Bible Reading</h2>
+         </section>
+
+         <section id="events" class="link" onclick="window.open( 'html/events.html', '_self' )">
+            <h2 class="heading section">Events &amp; Meetings</h2>
+         </section>
+      </div>
+
+      <div class="wrapper third">
+         <footer id="footer" role="contentinfo">
+            <h2 class="heading section">External Links</h2>
+            <ul class="blocks">
+               <li class="block first link" onclick="openURL( sessionStorage.getItem( 'websiteURL' ) )">
+                  <span class="extrainfo">Official <abbr title="Faith Life Church">FLC</abbr> </span>Website
+               </li>
+
+               <li class="block second link" onclick="openURL( sessionStorage.getItem( 'sowingURL' ) )">
+                  <span class="extrainfo">Official <abbr title="Faith Life Church">FLC</abbr> </span>Sowing<span class="extrainfo"> Page</span>
+               </li>
+            </ul>
+         </footer>
+      </div>
+
+      <div id="errorMessage"></div>
+   </body>
+</html>
