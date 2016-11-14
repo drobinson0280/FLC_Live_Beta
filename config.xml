@@ -52,7 +52,7 @@
       <string>UIStatusBarStyleLightContent</string>
    </gap:config-file>
 
-   <preference name="StatusBarOverlaysWebView" value="true" />
+   <preference name="StatusBarOverlaysWebView" value="false" />
    <!--<preference name="StatusBarBackgroundColor" value="#000000" />-->
 
    <!-- Define app icon for each platform. -->
