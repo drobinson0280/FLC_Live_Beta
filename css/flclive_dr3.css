@@ -170,7 +170,8 @@ body:not(.home) #siteheader
 .home .wrapper.first
 {
    box-sizing:border-box;
-   padding-bottom:0.5em;
+   padding-top:2em;
+   padding-bottom:2em;
    background-color:#1a3749;
    background-image:linear-gradient(to right, #1a3749 0%, #3d6170 100%);
    box-shadow:inset 0 -0.25em 0.5em -0.25em #000000;
@@ -268,7 +269,7 @@ body:not(.home) #siteheader
    position:relative;
    box-shadow:inset 0 0.25em 0.5em -0.25em #000000;
    box-sizing:border-box;
-   padding-top:0.5em;
+   padding-top:2em;
    padding-right:1em;
    padding-bottom:0.5em;
    padding-left:1em;
@@ -365,7 +366,7 @@ body:not(.home) #siteheader
 .home .wrapper.third
 {
    box-sizing:border-box;
-   padding-top:0.5em;
+   padding-top:2em;
    padding-right:0.5em;
    padding-bottom:0.5em;
    padding-left:0.5em;
@@ -644,7 +645,7 @@ body:not(.home) #siteheader
 {
    .home .wrapper.first
    {
-      padding-bottom:1em;
+      padding-bottom:2em;
    }
 
    .home .wrapper.second
