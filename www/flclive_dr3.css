@@ -418,7 +418,7 @@ body:not(.home) #siteheader {
 	background-color:#4e5766;
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:479px) {	/* iPhone 4s */
 	body:not(.home) {
 		padding-top:4.5em;
 	}
@@ -452,7 +452,7 @@ body:not(.home) #siteheader {
 	}
 }
 
-@media screen and (min-width:320px) and (max-width:479px) {
+@media screen and (min-width:320px) and (max-width:479px) {     /* iPhone 4s */
 	.home #livebroadcast .countdown {
 		width:88%;
 	}
@@ -460,7 +460,7 @@ body:not(.home) #siteheader {
 
 /* #siteheader and .wrapper.third share the top of the screen (they should have opposite but equal position settings) */
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:480px) {     /* Everything bigger than iPhone 4s */
 	.home #siteheader {
 		position:absolute;
 		top:0;
@@ -500,13 +500,13 @@ body:not(.home) #siteheader {
 	}
 }
 
-@media screen and (min-width:480px) and (max-width:567px) {
+@media screen and (min-width:480px) and (max-width:567px) {     /* iPhone 5s - 6 Plus */
 	.home #livebroadcast .countdown {
 		width:80%;
 	}
 }
 
-@media screen and (min-width:480px) and (max-width:719px) {
+@media screen and (min-width:480px) and (max-width:719px) {     /* iPhone 5s to iPad? */
 	/* push the //// up just a bit at these widths */
 
 	.home .wrapper.second:before {
@@ -514,25 +514,25 @@ body:not(.home) #siteheader {
 	}
 }
 
-@media screen and (min-width:568px) and (max-width:719px) {
+@media screen and (min-width:568px) and (max-width:719px) {     /* iPad? */
 	.home #livebroadcast .countdown {
 		width:78%;
 	}
 }
 
-@media screen and (min-width:720px) and (max-width:768px) {
+@media screen and (min-width:720px) and (max-width:768px) {     /* iPad */
 	.home #livebroadcast .countdown {
 		width:85%;
 	}
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1024px) {     /* iPad */
 	.home #livebroadcast .countdown {
 		width:79%;
 	}
 }
 
-@media screen and (max-height:480px) {
+@media screen and (max-height:480px) {     /* iPhone 4 */
 	.home .wrapper.second:before {
 		font-size:0.175rem;
 	}
@@ -540,7 +540,7 @@ body:not(.home) #siteheader {
 
 /* ios status bar is 20px tall */
 
-@media screen and (orientation:portrait) and (max-height:460px) {
+@media screen and (orientation:portrait) and (max-height:460px) {     /* iPhone 4 */
 	.home .wrapper.third {
 		padding-top:0.5em;
 		padding-bottom:0.5em;
@@ -558,7 +558,7 @@ body:not(.home) #siteheader {
 
 /* ios status bar is 20px tall */
 
-@media screen and (orientation:portrait) and (min-height:461px) {
+@media screen and (orientation:portrait) and (min-height:461px) {     /* iPhone 4 */
 	.home .wrapper.first {
 		padding-bottom:1em;
 	}
@@ -573,7 +573,7 @@ body:not(.home) #siteheader {
 	}
 }
 
-@media screen and (orientation:portrait) and (min-width:720px) {
+@media screen and (orientation:portrait) and (min-width:720px) {     /* iPad */
 	.home .wrapper.first {
 		padding-bottom:1.5em;
 	}
@@ -592,7 +592,7 @@ body:not(.home) #siteheader {
 
 /* make everything bigger for tablets */
 
-@media screen and (min-width:720px) and (min-height:480px) {
+@media screen and (min-width:720px) and (min-height:480px) {     /* iPhone 4 */
 	.home {
 		font-size:2em;
 	}
@@ -625,7 +625,7 @@ body:not(.home) #siteheader {
 	}
 }
 
-@media screen and (orientation:landscape) and (min-height:720px) {
+@media screen and (orientation:landscape) and (min-height:720px) {     /* iPad */
 	.home #siteheader, .home .wrapper.third {
 		font-size:1.25em;
 	}
