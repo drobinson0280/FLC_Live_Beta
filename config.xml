@@ -34,7 +34,7 @@
 
    <plugin name="cordova-plugin-inappbrowser" spec="~1.5" />
 
-   <plugin name="cordova-plugin-statusbar" spec="~1.1" source="npm" />
+   <plugin name="cordova-plugin-statusbar" spec="~2.1" source="npm" />
 
    <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
