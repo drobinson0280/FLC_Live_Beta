@@ -646,7 +646,7 @@ function getEventList()
 
    processSynchHttpRequest( url, queryString, requestType, responseType, "", "displayEventInfo" )
 
-   changeLinkBehavior()
+   //changeLinkBehavior()
 }
 
 function displayEventInfo( output )
@@ -714,7 +714,7 @@ function displayEventInfo( output )
 
          if ( websiteNode.length > 0 )
          {
-            website = entryElement.getElementsByTagName( "link" )[0].firstChild.data
+            website = openURL( entryElement.getElementsByTagName( "link" )[0].firstChild.data )
          }
          else
          {
