@@ -714,7 +714,7 @@ function displayEventInfo( output )
 
          if ( websiteNode.length > 0 )
          {
-            website = "openURL( " + entryElement.getElementsByTagName( "link" )[0].firstChild.data + " )"
+            website = entryElement.getElementsByTagName( "link" )[0].firstChild.data
          }
          else
          {
@@ -838,7 +838,7 @@ function displayEventInfo( output )
             cssDivLayer += '</dl>'
             cssDivLayer += '<dl>'
             cssDivLayer += '<dt>Website</dt>'
-            cssDivLayer += '<dd class="website"><a href="' + website + '" target="_blank" itemprop="url">' + website.substring(7) + '</a></dd>'
+            cssDivLayer += '<dd class="website"><a onclick="openURL( \'' + website + '\' ); return false;" target="_blank" itemprop="url">' + website.substring(7) + '</a></dd>'
             cssDivLayer += '</dl></div>'
             cssDivLayer += '<dl id="' + title + '-schedule" class="schedule">'
             cssDivLayer += '<dt>Schedule</dt>'
