@@ -32,12 +32,6 @@
    <!--<gap:plugin name="Media" />-->
    <!--<gap:plugin name="com.adobe.plugins.gaplugin" />-->
 
-   <plugin name="cordova-plugin-inappbrowser" spec="~1.5" source="npm" />
-
-   <feature name="InAppBrowser">
-      <param name="ios-package" value="CDVInAppBrowser" />
-   </feature>
-
    <plugin name="cordova-plugin-statusbar" spec="~2.1" source="npm" />
 
    <feature name="StatusBar">
