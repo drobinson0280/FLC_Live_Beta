@@ -929,7 +929,7 @@ function changeLinkBehavior()
       {
          e.preventDefault();
          window.open( encodeURI( url ), '_system' );
-         return false;
+         //return false;
       }
    });
 }
