@@ -928,7 +928,7 @@ function changeLinkBehavior()
       if ( url.indexOf( 'http://' ) !== -1 )
       {
          e.preventDefault();
-         window.open( encodeURI( url ), '_system' );
+         cordova.InAppBrowser.open( encodeURI( url ), '_system' );
          return false;
       }
    });
