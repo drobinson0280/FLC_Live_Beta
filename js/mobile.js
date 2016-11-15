@@ -300,13 +300,15 @@ function closeMediaStream( media )
 
    if ( ( media == "Friday" ) || ( media == "Sunday" ) )
    {
-      window.open( 'index.html', '_self' )
+      //window.open( 'index.html', '_self' )
+      cordova.InAppBrowser.open( 'index.html', '_self' )
    }
 }
 
 function openURL( url )
 {
-   window.open( encodeURI( url ), '_system' )
+   //window.open( encodeURI( url ), '_system' )
+   cordova.InAppBrowser.open( encodeURI( url ), '_system' )
 }
 
 // bibleReading.html
