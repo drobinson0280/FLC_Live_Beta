@@ -838,7 +838,7 @@ function displayEventInfo( output )
             cssDivLayer += '</dl>'
             cssDivLayer += '<dl>'
             cssDivLayer += '<dt>Website</dt>'
-            cssDivLayer += '<dd class="website"><a onclick="openURL( \'' + website + '\' ); return false;" target="_blank" itemprop="url">' + website.substring(7) + '</a></dd>'
+            cssDivLayer += '<dd class="website"><a onclick="openURL( ' + website + ' ); return false;" target="_blank" itemprop="url">' + website.substring(7) + '</a></dd>'
             cssDivLayer += '</dl></div>'
             cssDivLayer += '<dl id="' + title + '-schedule" class="schedule">'
             cssDivLayer += '<dt>Schedule</dt>'
