@@ -32,7 +32,8 @@
    <!--<gap:plugin name="Media" />-->
    <!--<gap:plugin name="com.adobe.plugins.gaplugin" />-->
 
-   <plugin name="cordova-plugin-inappbrowser" spec="~1.5" />
+   <!--<plugin name="cordova-plugin-inappbrowser" spec="~1.5" /> -->
+   <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 
    <feature name="InAppBrowser">
       <param name="ios-package" value="CDVInAppBrowser" />
