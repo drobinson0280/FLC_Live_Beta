@@ -27,7 +27,7 @@
    <body onLoad="getMobileConfig()" class="home" role="document">
       <div class="wrapper first">
          <header id="siteheader" role="banner">
-            <h1 class="heading site link" onclick="window.open( 'index.html', '_self' )">
+            <h1 class="heading site link" onclick="cordova.InAppBrowser.open( 'index.html', '_self' )">
                <abbr title="Faith Life Church">FLC</abbr>
                <span class="stylehook"> Live</span>
                <span class="extrainfo">
@@ -46,15 +46,15 @@
       </div>
 
       <div class="wrapper second">
-         <section id="featuredmessages" class="link" onclick="window.open( 'html/featuredMessages.html', '_self' )">
+         <section id="featuredmessages" class="link" onclick="cordova.InAppBrowser.open( 'html/featuredMessages.html', '_self' )">
             <h2 class="heading section">Featured Messages</h2>
          </section>
 
-         <section id="biblereading" class="link" onclick="window.open( 'html/bibleReading.html', '_self' )">
+         <section id="biblereading" class="link" onclick="cordova.InAppBrowser.open( 'html/bibleReading.html', '_self' )">
             <h2 class="heading section">Bible Reading</h2>
          </section>
 
-         <section id="events" class="link" onclick="window.open( 'html/events.html', '_self' )">
+         <section id="events" class="link" onclick="cordova.InAppBrowser.open( 'html/events.html', '_self' )">
             <h2 class="heading section">Events &amp; Meetings</h2>
          </section>
       </div>

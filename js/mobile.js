@@ -300,14 +300,12 @@ function closeMediaStream( media )
 
    if ( ( media == "Friday" ) || ( media == "Sunday" ) )
    {
-      //window.open( 'index.html', '_self' )
       cordova.InAppBrowser.open( 'index.html', '_self' )
    }
 }
 
 function openURL( url )
 {
-   //window.open( encodeURI( url ), '_system' )
    cordova.InAppBrowser.open( encodeURI( url ), '_system' )
 }
 
@@ -647,8 +645,6 @@ function getEventList()
    var responseType = "XML"
 
    processSynchHttpRequest( url, queryString, requestType, responseType, "", "displayEventInfo" )
-
-   //changeLinkBehavior()
 }
 
 function displayEventInfo( output )
@@ -918,22 +914,6 @@ function displayEventInfo( output )
          }
       }
    }
-}
-
-function changeLinkBehavior()
-{
-   $( '#eventList' ).on( 'click', 'a', function( e )
-   {
-      var elem = $( this );
-      var url = elem.attr( 'href' );
-
-      if ( url.indexOf( 'http://' ) !== -1 )
-      {
-         e.preventDefault();
-         cordova.InAppBrowser.open( encodeURI( url ), '_system' );
-         return false;
-      }
-   });
 }
 
 // featuredMessages.html
