@@ -34,6 +34,10 @@
 
    <plugin name="cordova-plugin-inappbrowser" spec="~1.5" />
 
+   <feature name="InAppBrowser">
+      <param name="ios-package" value="CDVInAppBrowser" />
+   </feature>
+
    <plugin name="cordova-plugin-statusbar" spec="~2.1" source="npm" />
 
    <feature name="StatusBar">
