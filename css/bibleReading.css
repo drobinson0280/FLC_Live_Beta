@@ -1,0 +1,68 @@
+    .pushes .biblereading_OFF {
+        background-image: url(../img/BibleReading_238x160.jpg);
+    }
+
+    .sowing .pushes .biblereading_OFF {
+        background-image: url(https://faithlifechurchbranson.onlinesowing.org/image/openbible-238x160.jpg);
+    }
+
+    .biblereading_OFF #content {
+        background-image: url(../img/BibleReading_640x360.jpg);
+    }
+
+    .biblereading_OFF #content {
+        background-image: url(../img/BibleReading_1440x360.jpg);
+    }
+
+    .biblereading #todayschapter dt {
+        color: #143870;
+        font-size: 0.85em;
+        font-weight: bold;
+    }
+
+    .biblereading #todayschapter dt:not(:first-of-type) {
+        margin-top: 5px
+    }
+
+    .biblereading #todayschapter dd {
+        font-size: 1.15em;
+    }
+
+    .biblereading #schedule {
+        text-align: center;
+    }
+
+    .biblereading #schedule dl {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin: 0 3px 10px 0;
+        width: 19.1%;
+        min-height: 100px;
+        border: 2px solid #000000;
+    }
+
+    .biblereading #schedule dl.today {
+        background: #4C6FA8;
+    }
+
+    .biblereading #schedule dl dt {
+        margin: 10px 5px 0 5px;
+        background: #FFFFFF;
+        color: #002160;
+    }
+
+    .biblereading #schedule dl dd {
+        margin: 25px 5px 0 5px;
+        font-size: 1.25em;
+    }
+
+    .biblereading #schedule dl dd a.today {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .biblereading #schedule dl dd a.today:hover {
+        color: #002160;
+        text-decoration_OFF: underline;
+    }
