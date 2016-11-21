@@ -382,3 +382,77 @@ audio, video
    font-style:italic;
    font-weight:500;
 }
+
+.featuredmessages .message
+{
+   margin:1em;
+   padding-top:1em;
+   padding-right:2em;
+   padding-bottom:2em;
+   padding-left:2em;
+   background-color:#cfe3e2;
+   border-radius:0.5em;
+   text-align:center;
+}
+
+.featuredmessages dt
+{
+   display:none;
+}
+
+.featuredmessages .date, .featuredmessages .title
+{
+   margin-bottom:1em;
+}
+
+.featuredmessages .title
+{
+   font-weight:bold;
+}
+
+.featuredmessages .title.sermon
+{
+   display:block;
+}
+
+/*
+.featuredmessages .title.sermon:before {
+   content:"(";
+}
+
+.featuredmessages .title.sermon:after {
+   content:")";
+}
+*/
+
+.featuredmessages .date, .featuredmessages .speaker
+{
+   font-size:0.85em;
+   font-style:italic;
+   font-weight:lighter;
+}
+
+.featuredmessages .speaker
+{
+   margin-bottom:3em;
+}
+
+.featuredmessages .message .link
+{
+   margin-top:2em;
+   padding-top:1em;
+   padding-bottom:1em;
+   border-radius:0.5em;
+   color:#ffffff;
+   text-transform:uppercase;
+}
+
+.featuredmessages .message .link.audio
+{
+   background-color:#4cda64;
+}
+
+.featuredmessages .message .link.video
+{
+   background-color:#4e5766;
+}
