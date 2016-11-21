@@ -834,8 +834,8 @@ body
 
    .home .heading.site
    {
-      padding-top: 0;
-      padding-bottom: 5%;
+      padding-top: 2%;
+      padding-bottom: 2%;
       background-image: url(../img/flc_logo_one_color_nbg-927x672.png);
       background-size: auto 100%;
       background-repeat: no-repeat;
