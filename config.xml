@@ -69,10 +69,10 @@
    <icon src="img/Icons/icon-152.png" gap:platform="ios" width="152" height="152" />
 
    <!-- Define app splash screen for each platform. -->
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P.png" gap:platform="ios" width="320" height="480" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P.png" gap:platform="ios" width="320" height="568" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P.png" gap:platform="ios" width="375" height="667" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P.png" gap:platform="ios" width="414" height="736" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-320X480.png" gap:platform="ios" width="320" height="480" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-320X568.png" gap:platform="ios" width="320" height="568" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-375X667.png" gap:platform="ios" width="375" height="667" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-414X736.png" gap:platform="ios" width="414" height="736" />
    <gap:splash src="img/LaunchScreens/launch-iphone-app-P-2x.png" gap:platform="ios" width="640" height="960" />
    <gap:splash src="img/LaunchScreens/launch-iphone-5-app-P.png" gap:platform="ios" width="640" height="1136" />
    <gap:splash src="img/LaunchScreens/launch-iphone-app-L-480X320.png" gap:platform="ios" width="480" height="320" />
@@ -80,10 +80,10 @@
    <gap:splash src="img/LaunchScreens/launch-iphone-app-L-667X487.png" gap:platform="ios" width="667" height="375" />
    <gap:splash src="img/LaunchScreens/launch-iphone-app-L-736X538.png" gap:platform="ios" width="736" height="414" />
    <gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1024.png" gap:platform="ios" width="768" height="1024" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-2x.png" gap:platform="ios" width="1536" height="2048" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-2x.png" gap:platform="ios" width="2048" height="2732" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-1536X2048.png" gap:platform="ios" width="1536" height="2048" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-2048X2732.png" gap:platform="ios" width="2048" height="2732" />
    <gap:splash src="img/LaunchScreens/launch-ipad-app-L-1024X768.png" gap:platform="ios" width="1024" height="768" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-L-2x.png" gap:platform="ios" width="2048" height="1536" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-L-2048X1536.png" gap:platform="ios" width="2048" height="1536" />
    <gap:splash src="img/LaunchScreens/launch-ipad-app-L-2732X2048.png" gap:platform="ios" width="2732" height="2048" />
 
    <!-- Define access to external domains. -->
