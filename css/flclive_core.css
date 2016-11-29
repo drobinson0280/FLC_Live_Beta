@@ -321,16 +321,6 @@ audio, video
    margin-top:1em;
 }
 
-/* Space allocated for iOS Status Bar */
-.statusBar
-{
-   position: fixed;
-   top: 0;
-   left: 0;
-   height: 20px;
-   background-color: #000000;
-}
-
 /* font-size and height should match .heading.page */
 .back
 {
