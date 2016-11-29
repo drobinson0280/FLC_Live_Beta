@@ -196,7 +196,7 @@ MEDIA QUERIES FOR SITE LAYOUT STUFF
     240x400 (omnia), 320x480 (iphone - about 6% of our viewers use this resolution) etc...
     I found that firefox doesn't display changes for 320px and below (no point in a max-width:14px media query) */
 
-/*@media screen and (min-width: 640px) {*/
+@media screen and (min-width: 640px) {
     .biblereading #todayschapter dt {
         color: #143870;
         font-size: 0.85em;
@@ -249,4 +249,4 @@ MEDIA QUERIES FOR SITE LAYOUT STUFF
         color: #002160;
         text-decoration_OFF: underline;
     }
-/*}*/
+}
