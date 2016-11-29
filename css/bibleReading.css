@@ -1,4 +1,4 @@
-html
+html_OFF
 {
    height: calc( 100% - 20px);
    margin-top_OFF: 20px;
@@ -17,48 +17,6 @@ body
    color: #FFFFFF;
 }
 
-.contentouter
-{
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-   overflow-y: auto;
-}
-
-.contentouter {
-    text-align: left;
-    line-height: 1.25;
-}
-
-.contentouter dd p,
-.contentouter dd dl,
-.contentouter dd ul,
-.contentouter dd ol,
-.contentouter li p,
-.contentouter li dl,
-.contentouter li ul,
-.contentouter li ol {
-    margin-left: 0;
-}
-
-.contentouter p,
-.contentouter dl,
-.contentouter ul,
-.contentouter ol {
-    margin: 0 0.75em 1em 0.75em;
-    margin: 0 0.75rem 1em 0.75rem;
-}
-
-.contentouter dt:not(:first-of-type) {
-    margin-top: 1em;
-    margin-top: 1rem;
-}
-
-.contentouter ul,
-.contentouter ol {
-    list-style-position_OFF: inside;
-}
-
 h2
 {
    color: #2a3342;
@@ -66,8 +24,6 @@ h2
    text-transform: uppercase;
    font-style: italic;
    font-family: Helvetica, Arial, sans-serif;
-   padding-top: 20px;
-   background-color: #000000;
 }
 
          a, a:hover, a:active, a:visited
