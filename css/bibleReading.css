@@ -1,3 +1,22 @@
+html
+{
+   height: calc( 100% - 20px);
+   margin-top: 20px;
+   font-size_OFF: 30px;
+   background-color: #000000;
+}
+
+body
+{
+   font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   /* Don't allow any scrolling */
+   overflow_OFF: hidden;
+   width: 100%;
+   height: 100%;
+   background-color_OFF: #1D384D;
+   color: #FFFFFF;
+}
+
 h2
 {
    color: #2a3342;
@@ -7,196 +26,40 @@ h2
    font-family: Helvetica, Arial, sans-serif;
 }
 
-@charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville|Rouge+Script|Ledger|Droid+Sans);
+         a, a:hover, a:active, a:visited
+         {
+            text-decoration: none;
+         }
 
-a {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
+         table.verses td
+         {
+            padding: 5px;
+            text-align: left;
+         }
 
-ins {
-    background-color: #ffff99;
-    color: #000000;
-    text-decoration: none;
-}
+         table.verses .verseNumber
+         {
+            text-align: right;
+         }
 
-mark {
-    background-color: #ffff99;
-    color: #000000;
-    font-style: italic;
-    font-weight: bold;
-}
+    .pushes .biblereading_OFF {
+        background-image: url(../img/BibleReading_238x160.jpg);
+    }
 
-del {
-    text-decoration: line-through;
-}
+    .sowing .pushes .biblereading_OFF {
+        background-image: url(https://faithlifechurchbranson.onlinesowing.org/image/openbible-238x160.jpg);
+    }
 
-abbr[title], dfn[title] {
-    border-bottom: 1px dotted;
-    cursor: help;
-}
+    .biblereading_OFF #content {
+        background-image: url(../img/BibleReading_640x360.jpg);
+    }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+    .biblereading_OFF #content {
+        background-image: url(../img/BibleReading_1440x360.jpg);
+    }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #cccccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-input, select {
-    vertical-align: middle;
-}
-
-
-a {
-    color: #4c6fa8;
-    text-decoration: none;
-}
-
-/* :hover is creates a css mouseover (not a javascript mouseover) event */
-a:hover {
-    color: #002a56;
-    text-decoration: underline;
-}
-
-/* back to top links */
-.backtotop,
-a[href="javascript:window.scrollTo(0,0)"],
-footer a[href="#"] {
-    display: block;
-    width: 100%;
-    text-align: right;
-}
-
-/* people don't need to see these but we still want them available to screen readers and such (like .visually hidden without adding markup to our html */
-a[href="#content"],
-.home .backtotop {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-#content {
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
-}
-
-h1,
-h2_OFF,
-h3,
-h4,
-h5,
-h6 {
-    color: #2a3342;
-    text-align: center;
-    text-transform: uppercase;
-    font-style: italic;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-    font-size: 1.875em;
-    font-size: 1.875rem;
-    padding: 1em 0;
-    padding: 1rem 0;
-}
-
-#footer h1,
-#footer h2,
-#footer h3,
-#footer h4,
-#footer h5,
-#footer h6 {
-    color: #ffffff;
-}
-
-.contentouter {
-    text-align: left;
-    line-height: 1.25;
-}
-
-.contentouter p,
-.contentouter dl,
-.contentouter ul,
-.contentouter ol {
-    margin: 0 0.75em 1em 0.75em;
-    margin: 0 0.75rem 1em 0.75rem;
-}
-
-.contentouter dd p,
-.contentouter dd dl,
-.contentouter dd ul,
-.contentouter dd ol,
-.contentouter li p,
-.contentouter li dl,
-.contentouter li ul,
-.contentouter li ol {
-    margin-left: 0;
-}
-
-.contentouter dt:not(:first-of-type) {
-    margin-top: 1em;
-    margin-top: 1rem;
-}
-
-.contentouter ul,
-.contentouter ol {
-    list-style-position: inside;
-}
-
-
-dt {
-    font-weight: bold;
-}
-
-#content {
-    position: relative;
-}
-
-#content {
-    width: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-}
-
-/*
-==================================================
-MEDIA QUERIES FOR SITE LAYOUT STUFF
-==================================================
-*/
-
-/* I like designs that look different on a phone in portrait/landscape, a tablet in portrait/landscape, an average resolution desktop, and a high resolution desktop (7 resolution groups makes 7 layouts) */
-/* there is a division among css coders as to whether you should code the main layout for low resolution and then use media queries for higher resolutions (http://stuffandnonsense.co.uk/projects/320andup/) or code the main layout for normal desktop (1280px?) and then use media queries for lower/higher resolutions
-    the concept is that coding for low first starts you with a single column of content and kind of forces you to think about the flow of content more than the layout of content
-    "I do see some merit in Dr. So-And-So's position"
-    the biggest problem with mobile-first coding is that internet explorer 8 doesn't support media queries
-    it's not a deal if you use some javascript to enable it (https://github.com/scottjehl/Respond) */
-/* min/max-width does include the scroll bar (17px on windows 7) so your layout should be about 20px narrower than the width */
-/* if you're using max-width for your groupings you should go from high to low (if you're doing min-width it would be opposite) (if you're using min/max together then it wouldn't matter) */
-/* low resolution cell phones and older smart phones in portrait
-    240x400 (omnia), 320x480 (iphone - about 6% of our viewers use this resolution) etc...
-    I found that firefox doesn't display changes for 320px and below (no point in a max-width:14px media query) */
-
-@media screen and (min-width: 640px) {
+@media screen (min-width: 776px)
+{
     .biblereading #todayschapter dt {
         color: #143870;
         font-size: 0.85em;
@@ -231,7 +94,7 @@ MEDIA QUERIES FOR SITE LAYOUT STUFF
 
     .biblereading #schedule dl dt {
         margin: 10px 5px 0 5px;
-        background: #FFFFFF;
+        background_OFF: #FFFFFF;
         color: #002160;
     }
 
