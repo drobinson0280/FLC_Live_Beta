@@ -262,6 +262,10 @@ audio, video
 
 .events #content
 {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   overflow-y: auto;
    font-style:italic;
    text-align:center;
 }
