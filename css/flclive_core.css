@@ -27,7 +27,7 @@ body
 
 body:not(.home)
 {
-   padding-top_OFF:5em;
+   padding-top:5em;
    padding-right_OFF:6%;
    padding-bottom_OFF:1em;
    padding-left_OFF:6%;
