@@ -3,7 +3,7 @@ html
    height: calc( 100% - 20px);
    margin-top: 20px;
    font-size_OFF: 30px;
-   background-color: #000000;
+   background-color_OFF: #000000;
 }
 
 body
@@ -15,6 +15,45 @@ body
    height: 100%;
    background-color_OFF: #1D384D;
    color: #FFFFFF;
+}
+
+.contentouter
+{
+   margin-left: 10px;
+}
+
+.contentouter {
+    text-align: left;
+    line-height: 1.25;
+}
+
+.contentouter p,
+.contentouter dl,
+.contentouter ul,
+.contentouter ol {
+    margin: 0 0.75em 1em 0.75em;
+    margin: 0 0.75rem 1em 0.75rem;
+}
+
+.contentouter dd p,
+.contentouter dd dl,
+.contentouter dd ul,
+.contentouter dd ol,
+.contentouter li p,
+.contentouter li dl,
+.contentouter li ul,
+.contentouter li ol {
+    margin-left: 0;
+}
+
+.contentouter dt:not(:first-of-type) {
+    margin-top: 1em;
+    margin-top: 1rem;
+}
+
+.contentouter ul,
+.contentouter ol {
+    list-style-position: inside;
 }
 
 h2
