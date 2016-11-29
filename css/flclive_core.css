@@ -262,7 +262,10 @@ audio, video
 
 .events #content
 {
-   margin: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
    overflow-y: auto;
    font-style:italic;
    text-align:center;
@@ -325,7 +328,10 @@ audio, video
 
 .contentouter
 {
-   margin: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
    overflow-y: auto;
 }
 
@@ -367,7 +373,7 @@ audio, video
 .back
 {
    position:fixed;
-   top: 20px;
+   top: 0;
    left:0;
    width:2em;
    height:2em;
@@ -377,6 +383,7 @@ audio, video
    background-size:50%;
    background-position:center center;
    text-indent:-9999px;
+   padding-top: 50px;
 }
 
 .heading.page
@@ -390,7 +397,7 @@ audio, video
 .heading.page
 {
    position:fixed;
-   top: 20px;
+   top: 0;
    right:-1em;
    left:-1em;
    height:2em;
@@ -400,6 +407,7 @@ audio, video
    background-image:linear-gradient(to right, #1a3749 0%, #3d6170 100%);
    color:#ffffff;
    box-shadow:0 0.1em 0.125em rgba(0, 0, 0, 0.4);
+   padding-top: 50px;
 }
 
 .heading.page:before
