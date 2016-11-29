@@ -3,7 +3,7 @@ html
    height: calc( 100% - 20px);
    margin-top: 20px;
    font-size_OFF: 30px;
-   background-color_OFF: #000000;
+   background-color: #000000;
 }
 
 body
@@ -29,10 +29,21 @@ body
     line-height: 1.25;
 }
 
+.contentouter dd p,
+.contentouter dd dl,
+.contentouter dd ul,
+.contentouter dd ol,
+.contentouter li p,
+.contentouter li dl,
+.contentouter li ul,
+.contentouter li ol {
+    margin-left: 0;
+}
+
 .contentouter p,
-.contentouter dl_OFF,
-.contentouter ul_OFF,
-.contentouter ol_OFF {
+.contentouter dl,
+.contentouter ul,
+.contentouter ol {
     margin: 0 0.75em 1em 0.75em;
     margin: 0 0.75rem 1em 0.75rem;
 }
