@@ -263,7 +263,7 @@ audio, video
 
 .events #content
 {
-   margin-top: 30px;
+   margin-top: 20px;
    margin-bottom: 20px;
    margin-left: 10px;
    margin-right: 10px;
@@ -329,7 +329,7 @@ audio, video
 
 .contentouter
 {
-   margin-top: 30px;
+   margin-top: 20px;
    margin-bottom: 20px;
    margin-left: 10px;
    margin-right: 10px;
@@ -384,7 +384,7 @@ audio, video
    background-size:50%;
    background-position:center center;
    text-indent:-9999px;
-   padding-top: 20px;
+   padding-top: 30px;
 }
 
 .heading.page
