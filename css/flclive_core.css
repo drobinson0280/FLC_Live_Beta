@@ -348,7 +348,7 @@ audio, video
 .heading.page
 {
    position:fixed;
-   top: 20px;
+   top: 0;
    right:-1em;
    left:-1em;
    height:2em;
