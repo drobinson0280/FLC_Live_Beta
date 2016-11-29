@@ -21,29 +21,6 @@
       <link rel="stylesheet" href="../css/flcb.css_OFF" />
       <link rel="stylesheet" href="../css/bibleReading.css" />
 
-      <style type="text/css">
-         h2
-         {
-            text-align: center;
-         }
-
-         a, a:hover, a:active, a:visited
-         {
-            text-decoration: none;
-         }
-
-         table.verses td
-         {
-            padding: 5px;
-            text-align: left;
-         }
-
-         table.verses .verseNumber
-         {
-            text-align: right;
-         }
-      </style>
-
       <script type="text/javascript" src="../js/cjax.js"></script>
       <script type="text/javascript" src="../js/sjax.js"></script>
       <script type="text/javascript" src="../js/mobile.js"></script>
@@ -51,10 +28,11 @@
 
    <body onLoad="getBibleReading()" class="biblereading" role="document">
       <section role="main" id="content">
+         <div class="statusBar"></div>
          <h2 class="heading page">Bible <span class="stylehook">Reading</span></h2>
          <div class="back link" onclick="window.open( '../index.html', '_self' )">back</div>
 
-         <div class="contentouter" style="margin-top: 10px; margin-left: 10px;">
+         <div class="contentouter">
             <p>Come join us in reading the Bible this year. We read one chapter of the Bible each weekday (Monday through Friday).</p>
 
             <section id="currentChapter"></section>
