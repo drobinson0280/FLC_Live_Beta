@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------------------------------------------*/
+/* Document   : error.css                                                                              */
+/* Created on : January 4, 2016                                                                        */
+/* Author     : Brandon E. Hofmann                                                                     */
+/*                                                                                                     */
+/* Purpose:  CSS for Error Page Display.                                                               */
+/*-----------------------------------------------------------------------------------------------------*/
+
+.titleA
+{
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   font-size: 18px;
+   font-style: normal;
+   line-height: 42px;
+   color: #2c5363;
+   font-weight: bold;
+}
+
+.titleC
+{
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   font-size: 13px;
+   line-height: 13px;
+   font-weight: bold;
+   color: #2c5363;
+   padding: 7px;
+}
+
+img
+{
+   border: 0;
+}
