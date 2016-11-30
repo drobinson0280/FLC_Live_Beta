@@ -1,12 +1,3 @@
-body_OFF
-{
-   /* Don't allow any scrolling */
-   overflow: hidden;
-   width: 100%;
-   height: 100%;
-   color: #FFFFFF;
-}
-
 h2
 {
    color: #2a3342;
