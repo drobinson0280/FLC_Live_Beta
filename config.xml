@@ -70,9 +70,6 @@
 
    <!-- Define app splash screen for each platform. -->
    <gap:splash src="img/LaunchScreens/launch-iphone-app-P.png" gap:platform="ios" width="320" height="480" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-320X568.png" gap:platform="ios" width="320" height="568" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-375X667.png" gap:platform="ios" width="375" height="667" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-414X736.png" gap:platform="ios" width="414" height="736" />
    <gap:splash src="img/LaunchScreens/launch-iphone-app-P-2x.png" gap:platform="ios" width="640" height="960" />
    <gap:splash src="img/LaunchScreens/launch-iphone-SE-P.png" gap:platform="ios" width="640" height="1136" />
    <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-P-1242X2208.png" gap:platform="ios" width="1242" height="2208" />
