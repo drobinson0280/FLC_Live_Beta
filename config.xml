@@ -83,8 +83,8 @@
    <gap:splash src="img/LaunchScreens/launch-iphone-4S-app-P-640x960.png" gap:platform="ios" width="640" height="960" />
    <gap:splash src="img/LaunchScreens/launch-iphone-SE-L-1136x640.png" gap:platform="ios" width="1136" height="640" />
    <gap:splash src="img/LaunchScreens/launch-iphone-SE-P-640x1136.png" gap:platform="ios" width="640" height="1136" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-6-app-L-750X1334.png" gap:platform="ios" width="750" height="1334" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-6-app-P-1334x750.png" gap:platform="ios" width="1334" height="750" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-6-app-L-1334x750.png" gap:platform="ios" width="1334" height="750" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-6-app-P-750X1334.png" gap:platform="ios" width="750" height="1334" />
    <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-L-2208X1242.png" gap:platform="ios" width="2208" height="1242" />
    <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-P-1242X2208.png" gap:platform="ios" width="1242" height="2208" />
    <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-L-1920x1080.png" gap:platform="ios" width="1920" height="1080" />
