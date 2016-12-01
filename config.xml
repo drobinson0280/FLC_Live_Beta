@@ -89,12 +89,12 @@
    <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-P-1242X2208.png" gap:platform="ios" width="1242" height="2208" />
    <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-L-1920x1080.png" gap:platform="ios" width="1920" height="1080" />
    <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-P-1080x1920.png" gap:platform="ios" width="1080" height="1920" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-L-1024X748.png" gap:platform="ios" width="1024" height="748" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1004.png" gap:platform="ios" width="768" height="1004" />
+   <!--<gap:splash src="img/LaunchScreens/launch-ipad-app-L-1024X748.png" gap:platform="ios" width="1024" height="748" />-->
+   <!--<gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1004.png" gap:platform="ios" width="768" height="1004" />-->
    <gap:splash src="img/LaunchScreens/launch-ipad-app-L-1024X768.png" gap:platform="ios" width="1024" height="768" />
    <gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1024.png" gap:platform="ios" width="768" height="1024" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-L-2048x1496.png" gap:platform="ios" width="2048" height="1496" />
+   <!--<gap:splash src="img/LaunchScreens/launch-ipad-app-P-1536x2008.png" gap:platform="ios" width="1536" height="2008" />-->
+   <!--<gap:splash src="img/LaunchScreens/launch-ipad-app-L-2048x1496.png" gap:platform="ios" width="2048" height="1496" />-->
    <gap:splash src="img/LaunchScreens/launch-ipad-9-7-L-2048x1536.png" gap:platform="ios" width="2048" height="1536" />
    <gap:splash src="img/LaunchScreens/launch-ipad-9-7-P-1536x2048.png" gap:platform="ios" width="1536" height="2048" />
    <gap:splash src="img/LaunchScreens/launch-ipad-12-9-L-2732x2048.png" gap:platform="ios" width="2732" height="2048" />
