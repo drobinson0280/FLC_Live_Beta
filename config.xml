@@ -60,35 +60,45 @@
 
    <!-- Define app icon for each platform. -->
    <icon src="img/logo.png" />
+   <icon src="img/Icons/icon-29.png" gap:platform="ios" width="29" height="29" />
+   <icon src="img/Icons/icon-40.png" gap:platform="ios" width="40" height="40" />
+   <icon src="img/Icons/icon-50.png" gap:platform="ios" width="50" height="50" />
    <icon src="img/Icons/icon-57.png" gap:platform="ios" width="57" height="57" />
+   <icon src="img/Icons/icon-58.png" gap:platform="ios" width="58" height="58" />
+   <icon src="img/Icons/icon-60.png" gap:platform="ios" width="60" height="60" />
    <icon src="img/Icons/icon-72.png" gap:platform="ios" width="72" height="72" />
    <icon src="img/Icons/icon-76.png" gap:platform="ios" width="76" height="76" />
+   <icon src="img/Icons/icon-80.png" gap:platform="ios" width="80" height="80" />
+   <icon src="img/Icons/icon-87.png" gap:platform="ios" width="87" height="87" />
+   <icon src="img/Icons/icon-100.png" gap:platform="ios" width="100" height="100" />
    <icon src="img/Icons/icon-114.png" gap:platform="ios" width="114" height="114" />
    <icon src="img/Icons/icon-120.png" gap:platform="ios" width="120" height="120" />
    <icon src="img/Icons/icon-144.png" gap:platform="ios" width="144" height="144" />
    <icon src="img/Icons/icon-152.png" gap:platform="ios" width="152" height="152" />
+   <icon src="img/Icons/icon-180.png" gap:platform="ios" width="180" height="180" />
 
    <!-- Define app splash screen for each platform. -->
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P.png" gap:platform="ios" width="320" height="480" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-P-2x.png" gap:platform="ios" width="640" height="960" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-SE-P.png" gap:platform="ios" width="640" height="1136" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-P-1242X2208.png" gap:platform="ios" width="1242" height="2208" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-7-P.png" gap:platform="ios" width="750" height="1334" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-P.png" gap:platform="ios" width="1080" height="1920" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-L-480X320.png" gap:platform="ios" width="480" height="320" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-L-568X415.png" gap:platform="ios" width="568" height="320" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-L-667X487.png" gap:platform="ios" width="667" height="375" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-app-L-736X538.png" gap:platform="ios" width="736" height="414" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-SE-L.png" gap:platform="ios" width="1136" height="640" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-4-app-L-480X320.png" gap:platform="ios" width="480" height="320" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-4-app-P-320x480.png" gap:platform="ios" width="320" height="480" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-4S-app-P-640x960.png" gap:platform="ios" width="640" height="960" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-SE-L-1136x640.png" gap:platform="ios" width="1136" height="640" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-SE-P-640x1136.png" gap:platform="ios" width="640" height="1136" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-6-app-L-750X1334.png" gap:platform="ios" width="750" height="1334" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-6-app-P-1334x750.png" gap:platform="ios" width="1334" height="750" />
    <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-L-2208X1242.png" gap:platform="ios" width="2208" height="1242" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-7-L.png" gap:platform="ios" width="1334" height="750" />
-   <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-L.png" gap:platform="ios" width="1920" height="1080" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1024.png" gap:platform="ios" width="768" height="1024" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-9-7-P.png" gap:platform="ios" width="1536" height="2048" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-12-9-P.png" gap:platform="ios" width="2048" height="2732" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-6-plus-P-1242X2208.png" gap:platform="ios" width="1242" height="2208" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-L-1920x1080.png" gap:platform="ios" width="1920" height="1080" />
+   <gap:splash src="img/LaunchScreens/launch-iphone-7-plus-P-1080x1920.png" gap:platform="ios" width="1080" height="1920" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-L-1024X748.png" gap:platform="ios" width="1024" height="748" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1004.png" gap:platform="ios" width="768" height="1004" />
    <gap:splash src="img/LaunchScreens/launch-ipad-app-L-1024X768.png" gap:platform="ios" width="1024" height="768" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-9-7-L.png" gap:platform="ios" width="2048" height="1536" />
-   <gap:splash src="img/LaunchScreens/launch-ipad-12-9-L.png" gap:platform="ios" width="2732" height="2048" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-768X1024.png" gap:platform="ios" width="768" height="1024" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-P-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-app-L-2048x1496.png" gap:platform="ios" width="2048" height="1496" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-9-7-L-2048x1536.png" gap:platform="ios" width="2048" height="1536" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-9-7-P-1536x2048.png" gap:platform="ios" width="1536" height="2048" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-12-9-L-2732x2048.png" gap:platform="ios" width="2732" height="2048" />
+   <gap:splash src="img/LaunchScreens/launch-ipad-12-9-P-2048x2732.png" gap:platform="ios" width="2048" height="2732" />
 
    <!-- Define access to external domains. -->
    <!--
